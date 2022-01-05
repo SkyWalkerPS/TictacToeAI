@@ -246,7 +246,7 @@ int main()
         */
         one.bestMove();
         one.makeGrid();nl;
-        if(one.checkX()){Sleep(100);cout<<"YOU WON";nl;victory();return 0;}
+        if(one.checkO()){Sleep(100);cout<<"I WON";nl;victory();return 0;}
         if(one.checkDraw()){cout<<"It's draw...Better luck next time...";return 0;}
     }
 return 0;
